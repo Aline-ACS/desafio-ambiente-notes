@@ -22,15 +22,12 @@ class Note extends Model {
           allowNull: false,
           type: Sequelize.DATEONLY,
           validate: {
-            isNumeric: true,
+            isDate: true,
           },
         },
         hour: {
           allowNull: false,
           type: Sequelize.TIME,
-          validate: {
-            isNumeric: true,
-          },
         },
       },
       { sequelize }
