@@ -36,4 +36,4 @@ class Note extends Model {
   }
 }
 
-export default Note();
+export default Note;
